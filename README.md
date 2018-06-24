@@ -2,6 +2,10 @@
 
 This app uses Movidius NCS to analyze store cuztomers and inventories.  So we can have business insight such as store customer vs. revenue on hourly basis, as well as tracking inventory so that the workers doesnt have to track them manually.
 
+# Demo Video
+You can check out youtube to see how the app works.
+https://www.youtube.com/watch?v=h1KcPffLOhQ
+
 # What's needed to run the Demo
 You will need a ubuntu machine along with Movidius NCS https://developer.movidius.com/start
 
@@ -30,7 +34,3 @@ You will need to install the Movidius NCS as well as node.js, after that youc an
 
 
 You can then use browser to go to http://localhost:8888 to see the deom
-
-# Demo Video
-You can check out youtube to see how the app works.
-https://www.youtube.com/watch?v=h1KcPffLOhQ
