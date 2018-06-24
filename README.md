@@ -33,4 +33,4 @@ You will need to install the Movidius NCS as well as node.js, after that youc an
 
 
 
-You can then use browser to go to http://localhost:8888 to see the deom
+You can then use browser to go to http://localhost:8888 to see the demo
