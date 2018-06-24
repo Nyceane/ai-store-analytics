@@ -660,6 +660,8 @@
     Spark.init();
     Page.init();
 
+    var lastcount=0;
+
     var bottleurl = "/bottles.txt";
     var peopleurl = "/people.txt"
 
@@ -674,7 +676,14 @@
       {
         $('#milkstatus').text('medium') 
       }
-      
+      if(lastcount != data)
+      {
+      $.ajax({
+        url:"https://murmuring-bayou-68628.herokuapp.com/fasthackinput?inventory=" + String(data),
+        success:null
+      });
+      }
+lastcount = data
     }
     function bottles()
     {
